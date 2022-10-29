@@ -1,0 +1,19 @@
+.navbar{
+    background-color: rgba(102, 35, 35, 0.863);
+}
+.navbar-brand{
+    width: 30%;
+}
+@media (max-width:700px){
+    .navbar-brand{
+        width: 20%;
+    }
+}
+.formulario-contacto {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.terminos {
+    margin-left: 30px;
+    margin-right: 30px;
+}

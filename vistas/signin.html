@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+	
+	<title>Inicio de sesi&oacute;n</title>
+
+	<link rel="shortcut icon" href="../images/img.png">
+	
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="../estilos/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../estilos/css/font-awesome.min.css">
+
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="../estilos/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="../estilos/css/main.css">
+	<link rel="stylesheet" href="../estilos/css/style.css">
+	
+
+	<style>
+		* {
+		  box-sizing: border-box;
+		}
+		
+		
+		html {
+		  font-size: 14px;
+		}
+		
+		body {
+		  background: linear-gradient(to bottom, #68d8d6, #ffffff);
+		  color: #454749;
+		  
+		  align-items: center;
+		  justify-content: center;
+		  font-family: 'Source Sans Pro', sans-serif;
+		  min-height: 100vh;
+		}
+		
+		h1, h2, h3, h4, h5, h6 {
+		  font-family: Monoton, sans-serif;
+		  margin-bottom: .5rem;
+		}
+		
+		/**
+		 * Tiles
+		 */
+		.tile {
+		  background-color: #ffffff;
+		  border-radius: .1rem;
+		  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.2), 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+		  position: relative;
+		  width: 100%;
+		  min-width: 320px;
+		  max-width: 25rem;
+		  overflow: hidden;
+		  
+		}
+		.tile .tile-header {
+		  background-image: url("../images/gt_favicon.png");
+		  background-position: center;
+		  background-size: cover;
+		  height: 12rem;
+		  margin-top: -7%;
+		}
+		.tile .tile-body {
+		  padding: 2rem;
+		}
+		.form-input {
+		  display: block;
+		  position: relative;
+		  margin-bottom: 1rem;
+		}
+		.form-input input {
+		  border: none;
+		  box-shadow: none;
+		  padding-top: 1.5rem;
+		  padding-right: 0;
+		  padding-bottom: 0.5rem;
+		  padding-left: 0;
+		  outline-style: none;
+		  width: 100%;
+		}
+		.form-input input ~ .label {
+		  color: #868e96;
+		  font-size: 1rem;
+		  margin: 0;
+		  pointer-events: none;
+		  position: absolute;
+		  top: 1.5rem;
+		  left: 0;
+		  transition: top .2s,font .2s;
+		  z-index: 1;
+		}
+		.form-input input ~ .underline {
+		  background-color: #bdc1c5;
+		  height: 1px;
+		  width: 100%;
+		  position: absolute;
+		  bottom: 0;
+		}
+		.form-input input ~ .underlinecorreo {
+		  background-color: #bdc1c5;
+		  height: 1px;
+		  width: 100%;
+		  position: absolute;
+		  bottom: 0;
+		  margin-left: -100%;
+		}
+		.form-input input:hover ~ .underline, .form-input input ~ .underlinecorreo, .form-input input:focus ~ .underline {
+		  background-color: #07beb8;
+		}
+		.form-input input:hover ~ .label, .form-input input:focus ~ .label {
+		  color: #07beb8;
+		}
+		.form-input input:focus ~ .underline {
+		  height: 2px;
+		}
+		.form-input input:focus ~ .label, .form-input input:valid ~ .label {
+		  top: 0;
+		  font-size: 0.85rem;
+		}
+		
+		.btn-irenic {
+		  background-color: #d7e4e4;
+		  color: #7b7bfe;
+		  border-radius: 8px;
+		  margin-bottom: 5px;
+		}
+		.clearfix{
+			text-align: center;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		</style>
+		
+</head>
+		<body>
+			
+			<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+				<div class="container">
+					<div class="navbar-header">
+						<!-- Button for smallest screens -->
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+						<a class="navbar-brand" href="index.html"><img src="../images/img.png" alt="Logo Huellitas"></a>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav pull-right">
+							<li><a href="../index.html">Inicio</a></li>
+							<li><a href="nosotros.html">Nosotros</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="adopcion.html">Adopci&oacute;n</a></li>
+									<li><a href="consultas.html">Consultas</a></li>
+									<li><a href="vacunacion.html">Vacunaci&oacute;n</a></li>
+								</ul>
+							</li>
+							
+							<li class="active"><a class="btn" href="signin.html">SIGN IN / SIGN UP</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div> 
+		
+			<div class="padre">
+				<div class="tile">
+					<div class="tile-header">
+					  <h2 style="color: white; opacity: .75; font-size: 4rem; display: flex; justify-content: center; align-items: center; height: 100%;">Iniciar Sessión</h2>
+					</div>
+					
+					<div class="tile-body">
+					  <form id="form">
+						<label class="form-input">
+						  <input type="text" autofocus="true" required />
+						  <span class="label">Correo Electronico</span>
+						  <span class="underlinecorreo"></span>
+						</label>
+						
+						<label class="form-input">
+						  <input type="password" required />
+						  <span class="label">Contraseña</span>
+						  <div class="underline"></div>
+						</label>
+						
+						<div class="submit-container clearfix" style="margin-top: 2rem;">          
+						  <div id="submit" role="button" type="button" class="btn btn-irenic float-right" tabindex="0">
+							<span>INGRESAR</span>
+						  </div>
+						  <div id="submit" role="button" type="button" class="btn btn-irenic float-right" tabindex="0">
+							<span> <a style="text-decoration: none;"  href="signup.html">REGISTRARSE</a></span>
+						  </div>
+						</div>
+					  </form>
+					</div>
+				  </div>
+			</div>
+	
+
+	<!-- Social links. @TODO: replace by link/instructions in template -->
+	<section id="social">
+		<div class="container">
+			<div class="wrapper clearfix">
+				<!-- AddThis Button BEGIN -->
+				<div class="addthis_toolbox addthis_default_style">
+				<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+				<a class="addthis_button_tweet"></a>
+				<a class="addthis_button_linkedin_counter"></a>
+				<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+				</div>
+				<!-- AddThis Button END -->
+			</div>
+		</div>
+	</section>
+	<!-- /social links -->
+	
+
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contacto</h3>
+						<div class="widget-body">
+							<p>+51 995061032<br>
+								<a href="mailto:#">huellitaspe@gmail.com</a><br>
+								<br>
+								Calle 20, Mz H Lt 8 Zárate San Juan de Lurigancho Lima, Perú
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">¡Síguenos!</h3>
+						<div class="widget-body">
+							<p class="follow-me-icons">
+								<a href=""><i class="fa fa-twitter fa-2"></i></a>
+								
+								<a target="_blank" href="https://tinyurl.com/2b2pdvtn"><i class="fa fa-instagram fa-2"></i></a>
+								<a target="_blank" href="https://tinyurl.com/2dzeey82"><i class="fa fa-facebook fa-2"></i></a>
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">Propósito</h3>
+						<div class="widget-body">
+							<p>En 2022, creamos Huellitas ante la necesidad de dar a nuestras mascotas una atención integral usando lo último de la tecnología, el calor de hogar y lograr para una tenencia más simple y responsable. Nuestros locales, 
+							se encuentren ubicados en los mejores lugares de la ciudad , disponiendo de la más amplia gama de mascotas, productos y accesorios. Diseñamos nuestros servicios de manera que puedan ver todo el proceso de baño y peluquería, garantizando así el buen trato de todo nuestro personal. 
+							<a target="_blank" href="terminos.html"> Haz click aquí para leer nuestros términos y condiciones.</a></p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								<a href="../index.html">Inicio</a> | 
+								<a href="nosotros.html">Nosotros</a> |
+								<a href="consultas.html">Consultas</a> |
+								<a href="adopcion.html">Adopci&oacute;n</a> |
+								<b><a href="vacunacion.html">Vacunaci&oacute;n</a></b>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								Copyright &copy; 2022, Huellitas. Diseñado por el grupo de "Huellitas" :D</a> 
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>	
+		
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+</body>
+</html>
